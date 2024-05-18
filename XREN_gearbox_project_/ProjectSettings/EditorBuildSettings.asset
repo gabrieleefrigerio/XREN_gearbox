@@ -6,16 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Simple Garage/Scenes/scena_esploso.unity
+    path: Assets/Simple Garage/Scenes/MainMenu.unity
     guid: 0927dbd7ee8a03f448249f45ab90cc62
   - enabled: 1
-    path: Assets/Simple Garage/Scenes/smontaggio.unity
+    path: Assets/Simple Garage/Scenes/Disassembly.unity
     guid: b62072381a5d9014f980a3b74d863f13
   - enabled: 1
-    path: Assets/Simple Garage/Scenes/rimontaggio.unity
+    path: Assets/Simple Garage/Scenes/Assembly.unity
     guid: 69a2c8da8dad7944191ae25823f348cb
   - enabled: 1
-    path: Assets/Simple Garage/Scenes/riduttore_rotante.unity
+    path: Assets/Simple Garage/Scenes/Animation.unity
     guid: 804dfffd21036a74ea4b4cd1df9c48d3
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 3c397a4c4175d7843ae875ac3b5e3001, type: 2}

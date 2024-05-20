@@ -24,7 +24,9 @@ public class RemoveHolo : MonoBehaviour
     {
         if (other.gameObject == sensor)
         { 
-        hologram.GetComponent<MeshRenderer>().enabled = false;
+            hologram.GetComponent<MeshRenderer>().enabled = false;
+            Debug.Log("++++++++++++++INFO++++++++++++++++++");
+            Debug.Log(other.gameObject == sensor);
         }
 
     }
@@ -34,6 +36,8 @@ public class RemoveHolo : MonoBehaviour
         if (other.gameObject == sensor)
         {
             hologram.GetComponent<MeshRenderer>().enabled = true;
+            Debug.Log("++++++++++++++INFO++++++++++++++++++");
+            Debug.Log(other.gameObject == sensor);
         }
     }
 }

@@ -17776,7 +17776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hologram: {fileID: 1163846516}
-  sensor: {fileID: 8300353385407628876}
+  sensor: {fileID: 5929704608927233334}
 --- !u!23 &1163846518
 MeshRenderer:
   m_ObjectHideFlags: 0

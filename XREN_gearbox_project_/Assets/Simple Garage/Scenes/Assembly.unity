@@ -12052,10 +12052,51 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n\n-Input shaft system   \n    -Bearings (x2)\n    -Spacer\r\n    -Internal
-    Keyway\n    -Sun gear\n    -M10 washer\n    -M10 screw\n    -External keyway\n   
-    -Input shaft\n-Case - input side\n-Lip seal - input side\n-Top M6 washer\n-Side
-    M6 washer\n-Top M6 screw\n-Side M6 screw\n-M8 screws (x8)\n-M8 nuts (x8)\n\n\r\n"
+  m_text: '
+
+    -External keyway to input shaft
+
+    -External bearing to input
+    shaft
+
+    -Input shaft to input case
+
+    -Internal bearing to input shaft
+
+    -Spacer
+    to input shaft
+
+    -Internal keyway to shaft
+
+    -Sun gear
+
+    -M10 washer
+
+    -M10
+    screw
+
+    -Case system - input side
+
+    -Lip seal - input side
+
+    -Top M6
+    washer
+
+    -Side M6 washer
+
+    -Top M6 screw
+
+    -Side M6 screw
+
+    -M8 screws
+    (x8)
+
+    -M8 nuts (x8)
+
+
+    
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e48c3e0981e43344790e464c816c209b, type: 2}
   m_sharedMaterial: {fileID: -6400933052560659531, guid: e48c3e0981e43344790e464c816c209b, type: 2}
@@ -12082,8 +12123,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.05
-  m_fontSizeBase: 0.05
+  m_fontSize: 0.04
+  m_fontSizeBase: 0.04
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -34634,7 +34675,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4765887201927728, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3
+      value: 1.35
       objectReference: {fileID: 0}
     - target: {fileID: 4795266759639050, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
       propertyPath: m_LocalScale.x
@@ -38604,7 +38645,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.029, y: 1.659}
+  m_AnchoredPosition: {x: 1.987, y: 1.659}
   m_SizeDelta: {x: 5, y: 0.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2015835179
@@ -38627,8 +38668,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "-Case - output side\n-Crown Seal\n-Crown\n-Crown Seal\n-Output Shaft system:
-    \n    -Bearings (x2)\n    -Spacer\n    -Internal keyway\n    -External keyway\n-Carrier
+  m_text: "-Case - output side\n-Crown Seal\n-Crown\n-Crown Seal\n-External keyway
+    to output shaft\n-Bearing to output shaft\n-Output shaft to output case\n-Bearing
+    to output shaft\n-Spacer to output shaft\n-internal keyway to output shaft\n-Carrier
     System\n    -Pivot system (x3)\n\t-Internal bearing\n\t-satellite gear\n\t-External
     bearing\n-Seeger ring\n\n"
   m_isRightToLeft: 0
@@ -38657,8 +38699,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.05
-  m_fontSizeBase: 0.05
+  m_fontSize: 0.04
+  m_fontSizeBase: 0.04
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

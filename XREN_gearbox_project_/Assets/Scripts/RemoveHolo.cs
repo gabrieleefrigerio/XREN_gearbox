@@ -6,6 +6,7 @@ public class RemoveHolo : MonoBehaviour
 {
     public GameObject hologram = null;
     public GameObject sensor = null;
+    private GameObject interactiontofind = null;
 
 
     // Start is called before the first frame update
@@ -15,10 +16,6 @@ public class RemoveHolo : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -28,7 +25,6 @@ public class RemoveHolo : MonoBehaviour
             Debug.Log("++++++++++++++INFO++++++++++++++++++");
             Debug.Log(other.gameObject == sensor);
         }
-
     }
 
     private void OnTriggerExit(Collider other)
@@ -38,6 +34,18 @@ public class RemoveHolo : MonoBehaviour
             hologram.GetComponent<MeshRenderer>().enabled = true;
             Debug.Log("++++++++++++++INFO++++++++++++++++++");
             Debug.Log(other.gameObject == sensor);
+
+          
         }
-    }
+        
 }
+  // void Update ()
+  //  {
+       // if (hologram.GetComponent<MeshRenderer>().enabled == false)
+           // interactiontofind = sensor.transform.GetChild(0).gameObject;
+           // interactiontofind.SetActive(false);
+    //}
+}
+
+//interactiontofind=other.gameObject.transform.GetChild(0).gameObject
+//interactiontofind.SetActive(false);
